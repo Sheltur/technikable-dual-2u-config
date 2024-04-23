@@ -43,9 +43,9 @@
 
         nav_layer {
             bindings = <
-&bt BT_CLR  &kp EXCL      &kp AT        &kp HASH      &kp PRCNT     &kp CARET             &kp AMPS  &kp STAR  &kp LPAR   &kp RPAR   &kp MINUS  &kp DEL
-&trans      &trans        &trans        &trans        &trans        &trans                &trans    &trans    &trans     &trans     &trans     &kp C_VOLUME_UP
-&trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &trans    &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &kp C_VOL_DN
+&bt BT_CLR  &kp EXCL      &kp AT        &kp HASH      &kp PRCNT     &kp CARET             &kp AMPS  &kp STAR  &kp LPAR   &kp RPAR    &kp MINUS  &kp DEL
+&trans      &trans        &trans        &trans        &trans        &trans                &trans    &trans    &trans     &kp K_LOCK  &trans     &kp C_VOLUME_UP
+&trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4          &trans    &kp HOME  &kp PG_DN  &kp PG_UP   &kp END    &kp C_VOL_DN
                           &trans        &trans        &trans                      &trans            &trans    &trans
             >;
         };
